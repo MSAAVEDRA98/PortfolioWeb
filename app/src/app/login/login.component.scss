@@ -1,0 +1,21 @@
+@mixin centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    @include centrar();
+    margin-top: 10%;
+}
+#tarjeta{
+    padding: 10px;
+    box-shadow: 5px 5px 10px;
+    background-color: black;
+    color: white;
+}
+#boton{
+    margin-top: 10px;
+}
+#boton:hover{
+    background-color: rgb(76, 227, 76);
+}
