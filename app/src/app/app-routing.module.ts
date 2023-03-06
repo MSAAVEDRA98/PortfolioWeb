@@ -4,7 +4,7 @@ import { LoginComponent } from './login/login.component';
 import { MainComponent } from './main/main.component';
 
 const routes: Routes = [
-  {path: '', component:MainComponent},
+  {path: '', component:LoginComponent},
   {path: 'login', component: LoginComponent},
   {path: 'main', component: MainComponent}
 ];
